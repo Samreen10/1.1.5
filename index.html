@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Guess the Number Game</h1>
+        <p>Player 1: Set a number between 1 and 100:</p>
+        <input type="number" id="setNumber">
+        <button id="setButton">Set Number</button>
+        <p>Guesses Left: <span id="guessesLeft">10</span></p>
+        <div class="countdown">
+            <p>Time Left: <span id="timer">20</span></p>
+        </div> 
+        <p>Player 2: Guess the number:</p>
+        <input type="number" id="userGuess">
+        <button id="guessButton">Guess</button>
+        <p id="message"></p>
+        <p id="hint"></p>
+        <p id="resultLabel" style="display: none;"></p>
+        <button id="resetButton">Reset Game</button>
+    <script src="main.js"></script>
+</body>
+</html>
